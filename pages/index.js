@@ -5,11 +5,11 @@ export default function Index(){
 	const [menus, setMenus] = useState(Array(10).fill(''))
 	const [foods, setFoods] = useState(Array(10).fill(''))
 
-	useEffect(() => {
-		fetch(API.GET_MENUS)
-		.then(e => e.json())
-		.then(({data}) => setMenus(data))
-	}, [])
+	// useEffect(() => {
+	// 	fetch(API.GET_MENUS)
+	// 	.then(e => e.json())
+	// 	.then(({data}) => setMenus(data))
+	// }, [])
 
 	return (
 		<section className = 'container-fluid'>

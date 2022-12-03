@@ -3,7 +3,7 @@ import config from '/backend/config'
 export default async function handler(_, res){
 
     config.connect.query(
-        'SELECT * FROM food ORDER BY timestamp DESC',
+        'SELECT food.*, menu.name AS menu_name FROM food LEFT JOIN menu ON food.menu_id = menu.id ORDER BY timestamp DESC',
         (error, result) => {
             res.status(200).json({
                 type: 'success',

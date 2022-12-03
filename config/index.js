@@ -6,7 +6,7 @@ export const SERVER = {
     FRONTEND: (
         (dev)
         ? 'http://localhost:3020/'
-        : 'http://192.168.1.162:3020/'
+        : 'http://192.168.1.205:3020/'
     ),
     BACKEND: (
         (dev)

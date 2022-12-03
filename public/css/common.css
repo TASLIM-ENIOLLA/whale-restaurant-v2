@@ -75,7 +75,7 @@ a, span{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font: MontserratRegular;
+    font: MontserratLight;
     font-size: 12px;
     text-decoration: none;
     user-select: none;
@@ -112,10 +112,6 @@ a, span{
     width: 0px;
 	/*To use this class style, the element containing the text will have this class style and flex-1. Its parent must have flex-h*/
 }
-/* @font-face{
-    font-family: 'adobe_clean_bold';
-    src: url(../../../fonts/adobe_clean_bold.otf);
-} */
 .underline{
     text-decoration: underline;
 }
